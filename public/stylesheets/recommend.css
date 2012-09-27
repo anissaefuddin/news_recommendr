@@ -1,0 +1,30 @@
+.item {
+  width: 300px;
+  margin: 10px;
+  background-color: white;
+  float: left;
+  padding: 15px;
+  border-radius: 1px;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  font-family: Helvetica, Arial;
+  font-size: 13px;
+
+}
+
+.item img {
+	box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+#container {
+	width: 1200px;
+}
+.read-more {
+	margin-top: 10px;
+}
+.probability {
+	float: right;
+	font-size: 1.4em;
+	font-family: Helvetica;
+	font-weight: bold;
+	margin-right: 60px;
+}

@@ -1,0 +1,17 @@
+#container
+
+<script id="entry-template" type="text/x-handlebars-template">
+  <div class="item">
+  	<img src="http://placehold.it/48x48" height="48" width="48"></img>
+  	<!--p class="probability">0%</p-->
+  	<h2>{{title}}</h2>
+  	<p>{{content}}</p>
+  	{{link "Read More..." url}}
+  </div>
+</script>
+
+
+%link(href="/stylesheets/recommend.css" rel="stylesheet")
+%script(src="/js/lib/jquery.masonry.js")
+%script(src="/js/lib/handlebars.js")
+%script(src="/js/recommend.js")

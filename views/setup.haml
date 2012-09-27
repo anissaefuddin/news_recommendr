@@ -1,0 +1,27 @@
+%h1 Setup your account
+
+.info
+	%p Choose some subjects to be subscribed to
+.tech.subj
+	%input(type="checkbox")
+	%label Technology
+.human.subj
+	%input(type="checkbox")
+	%label Humanities
+.sci.subj
+	%input(type="checkbox")
+	%label Science
+
+.info
+	%p Here you can add your own RSS feed urls
+
+	%input#rssinput
+	%button#addbuttonrss Add
+
+	#rssurls
+
+
+%button.submitbutton#submitrss Submit!
+
+%link(href="/stylesheets/setup.css" rel="stylesheet")
+%script(src="/js/setup.js")

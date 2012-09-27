@@ -1,0 +1,173 @@
+.item {
+  width: 900px;
+  margin: 10px;
+  background-color: white;
+  float: center;
+  padding: 15px;
+  border-radius: 1px;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  font-family: Helvetica, Arial;
+  font-size: 13px;
+  min-height: 200px
+
+}
+
+.item h2 {
+  margin-left: 75px;
+}
+
+.item img {
+	box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  float: left;
+}
+
+#container {
+	width: 1200px;
+}
+.read-more {
+	margin-top: 10px;
+}
+.rating .probability {
+	text-align: center;
+  width: 100px;
+	
+}
+
+.rating {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  font-family: Helvetica;
+}
+
+.rating .like {
+  -webkit-appearance: none;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-image: none;
+  -webkit-border-vertical-spacing: 0px;
+  -webkit-box-align: center;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0470588) 0px 1px 2px 0px;
+  background-color: #5BB75B;
+  background-image: -webkit-linear-gradient(top, #62C462, #51A351);
+  background-repeat: repeat-x;
+  border-bottom-color: rgba(0, 0, 0, 0.247059);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-collapse: separate;
+  border-left-color: rgba(0, 0, 0, 0.0980392);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgba(0, 0, 0, 0.0980392);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgba(0, 0, 0, 0.0980392);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0470588) 0px 1px 2px 0px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  height: 28px;
+  letter-spacing: normal;
+  line-height: 18px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  max-width: none;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  text-align: center;
+  text-indent: 0px;
+  text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+  text-transform: none;
+  vertical-align: middle;
+  width: 72px;
+  word-spacing: 0px;
+
+
+float: left;
+margin-left: 200px;
+}
+
+
+.rating .dislike {
+  -webkit-appearance: none;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-image: none;
+  -webkit-border-vertical-spacing: 0px;
+  -webkit-box-align: center;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0470588) 0px 1px 2px 0px;
+  -webkit-transition-delay: 0s;
+  -webkit-transition-duration: 0.10000000149011612s;
+  -webkit-transition-property: background-position;
+  -webkit-transition-timing-function: linear;
+  background-color: #BD362F;
+  background-image: -webkit-linear-gradient(top, #EE5F5B, #BD362F);
+  background-position: 0px -15px;
+  background-repeat: repeat-x;
+  border-bottom-color: rgba(0, 0, 0, 0.247059);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-collapse: separate;
+  border-left-color: rgba(0, 0, 0, 0.0980392);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgba(0, 0, 0, 0.0980392);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgba(0, 0, 0, 0.0980392);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0470588) 0px 1px 2px 0px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  height: 28px;
+  letter-spacing: normal;
+  line-height: 18px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  max-width: none;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0px;
+  text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+  text-transform: none;
+  vertical-align: middle;
+  width: 72px;
+  word-spacing: 0px;
+
+
+float: right;
+margin-right: 200px;
+}
+
+.hidden {
+  display: none;
+}
